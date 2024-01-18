@@ -98,6 +98,12 @@ section.me-section a {
   padding: 4px 11px;
   border-radius: 9px;
   background-color: #3d3b3b;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+section.me-section a:hover {
+  box-shadow: 0 0 10px #956767;
+  transform: scale(1.08);
 }
 
 .descr {
@@ -126,7 +132,7 @@ section.me-section a {
 }
 
 .project3 div.date:after {
-  content: "0000000 — 0000000";
+  content: "0000 — 00000";
   visibility: hidden;
 }
 .project1 div.date:after {
@@ -226,4 +232,12 @@ section.edu-section a:hover {
   width: 107px;
   border-radius: 44px;
   margin-right: 23px;
+  box-shadow: 0 0 9px 1px white;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.profile_pic:hover{
+      box-shadow: 0 0 16px 1px #fff59a;
+      transform: scale(1.1);
+      cursor: pointer;
 }
