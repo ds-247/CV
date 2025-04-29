@@ -222,6 +222,14 @@ section.edu-section a:hover {
   margin-right: 13px;
 }
 
+.link-linkedin {
+  margin-right: 1px;
+}
+
+.link-resume {
+  margin-right: 4px;
+}
+
 .contact-flex {
   margin-bottom: 12px;
 }
@@ -230,7 +238,7 @@ section.edu-section a:hover {
 
 .profile_pic {
   width: 107px;
-  border-radius: 44px;
+  border-radius: 54px;
   margin-right: 23px;
   box-shadow: 0 0 9px 1px white;
   transition: transform 0.3s, box-shadow 0.3s;
